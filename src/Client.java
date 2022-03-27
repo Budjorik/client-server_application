@@ -29,7 +29,7 @@ public class Client {
                     System.out.println("Сервер сообщает:\n" + serverMessage);
                     if (i < 2) {
                         System.out.println("Наш ответ:");
-                        String clientMessage = scanner.nextLine(); // читаем имя из консоли
+                        String clientMessage = scanner.nextLine(); // читаем сообщение из консоли
                         out.println(clientMessage); // отправляем сообщение на сервер
                     }
                 }
